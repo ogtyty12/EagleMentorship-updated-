@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<head>
+    <title>Eagles Wings Portmore Mentorship Programme Login</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #f5f5f5;
+        }
+
+            .container h2 {
+                text-align: center;
+                margin-bottom: 20px;
+            }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+            .form-group label {
+                display: block;
+                font-weight: bold;
+                margin-bottom: 5px;
+            }
+
+            .form-group input[type="text"],
+            .form-group input[type="password"] {
+                width: 100%;
+                padding: 10px;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+            }
+
+            .form-group .button-container {
+                display: flex;
+                justify-content: space-between;
+            }
+
+            .form-group input[type="submit"],
+            .form-group input[type="button"] {
+                width: 48%;
+                padding: 10px;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+                font-weight: bold;
+                text-transform: uppercase;
+            }
+
+            .form-group input[type="submit"] {
+                background-color: #4CAF50;
+                color: #fff;
+            }
+
+                .form-group input[type="submit"]:hover {
+                    background-color: #45a049;
+                }
+
+            .form-group input[type="button"] {
+                background-color: #ccc;
+                color: #000;
+            }
+
+                .form-group input[type="button"]:hover {
+                    background-color: #ddd;
+                }
+
+        .signup-container {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+            .signup-container p {
+                margin-bottom: 0;
+            }
+
+            .signup-container a {
+                color: #4CAF50;
+                text-decoration: none;
+            }
+
+                .signup-container a:hover {
+                    text-decoration: underline;
+                }
+
+        .navigation {
+            background-color: #333;
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+        }
+
+            .navigation a {
+                color: #fff;
+                text-decoration: none;
+                margin: 0 10px;
+            }
+    </style>
+</head>
+<body>
+    <div class="navigation">
+        <a href="index.html">Home</a>
+        <a href="Login.html">Login</a>
+        <a href="aboutus.html">ABOUT US</a>
+        <a href="Mission.html">MISSION & VISION</a>
+        <a href="">MEET THE TEAM</a>
+        <a href="">PRESS</a>
+        <a href="">FACTS</a>
+        <a href="">GET INVOLVED</a>
+        <a href="">FAQ</a>
+        <a href="">SUPPORT US</a>
+        <a href="ContactUs.html">CONTACT US</a>
+    </div>
+
+    <div class="container">
+        <h2>Login</h2>
+        <form action="login.php" method="post">
+            <div class="form-group">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="form-group button-container">
+                <input type="submit" value="Login">
+                <!--<input type="button" value="Signup" onclick="location.href='signup.html'">-->
+            </div>
+        </form>
+        <div class="signup-container">
+            <p>Don't have an account? <a href="signup.html">Sign up</a></p>
+        </div>
+    </div>
+</body>
+</html>
+</html>
